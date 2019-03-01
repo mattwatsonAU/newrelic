@@ -1,3 +1,5 @@
+// Jump to line 60 to customise. Great for simulating logins and beyond.
+
 // Theshold for duration of entire script - fails test if script lasts longer than X (in ms)
 // Script-wide timeout for all wait and waitAndFind functions (in ms)
 var DefaultTimeout = 60000;
