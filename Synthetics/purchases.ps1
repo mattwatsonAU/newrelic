@@ -1,7 +1,7 @@
 $accountId = "ACCOUNTID"
 $insertkey = "APIKEY"
 # Replace with your custom event for the body
-$body = '[{"eventType": "Purchase", "account": 4, "amount": 123}]'
+$body = '[{"eventType": "Purchase", "account": 4, "name": "Matt", "amount": 123}]'
 
 $headers = @{} 
 $headers.Add("X-Insert-Key", "$insertkey") 
